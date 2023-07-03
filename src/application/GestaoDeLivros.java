@@ -17,6 +17,7 @@ public class GestaoDeLivros {
         if(livro.getStatus() == Status.DISPONIVEL){
             usuario.adicionarLivro(livro);
             livro.setStatus(Status.EMPRESTADO);
+            System.out.println("Livro " + livro.getNome() + " Emprestado");
         } else{
             System.out.println("Impossível emprestar livro. Livro: " + livro.getNome() + "não está disponível");
         }

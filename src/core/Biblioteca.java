@@ -17,7 +17,7 @@ public class Biblioteca {
         this.listaLivros.remove(livro);
     }
 
-    public ArrayList<Livro> listaLivros(){
+    public ArrayList<Livro> listarLivros(){
         return this.listaLivros;
     }
 }

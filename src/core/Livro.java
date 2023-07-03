@@ -29,22 +29,6 @@ public class Livro {
         this.nome = nome;
     }
 
-    public String getAutor() {
-        return autor;
-    }
-
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
-
-    public Date getPublicacao() {
-        return publicacao;
-    }
-
-    public void setPublicacao(Date publicacao) {
-        this.publicacao = publicacao;
-    }
-
     public int getCodigo() {
         return codigo;
     }
