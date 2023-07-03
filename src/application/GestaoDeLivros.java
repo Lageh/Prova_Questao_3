@@ -1,11 +1,20 @@
 package application;
 
+import core.Biblioteca;
 import core.Livro;
 
 import java.util.ArrayList;
 
 public class GestaoDeLivros {
-    private ArrayList<Livro> listaLivros =  new ArrayList<Livro>();
+    private Biblioteca biblioteca;
+
+    public GestaoDeLivros() {
+        this.biblioteca = new Biblioteca();
+    }
+
+    public GestaoDeLivros(Biblioteca biblioteca){
+        this.biblioteca = biblioteca;
+    }
 
 
 }
