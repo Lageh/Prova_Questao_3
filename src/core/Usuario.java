@@ -7,6 +7,12 @@ public class Usuario {
     private String codigo;
     private ArrayList<Livro> emPosse;
 
+    public Usuario(String usuario, String codigo) {
+        this.usuario = usuario;
+        this.codigo = codigo;
+        this.emPosse = new ArrayList<Livro>();
+    }
+
     public ArrayList<Livro> listarLivros(){
         return this.emPosse;
     }
