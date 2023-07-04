@@ -18,18 +18,18 @@ public class Main {
         biblioteca.adicionarLivros(livro2);
         biblioteca.adicionarLivros(livro3);
 
-        ArrayList<Livro> bibi = biblioteca.listarLivros();
+        ArrayList<Livro> listaDeLivros = biblioteca.listarLivros();
 
         for (Livro l:
-                bibi) {
+                listaDeLivros) {
             System.out.println(l.getNome());
         }
 
         biblioteca.excluirLivros(livro1);
-        bibi = biblioteca.listarLivros();
+        listaDeLivros = biblioteca.listarLivros();
 
         for (Livro l:
-                bibi) {
+                listaDeLivros) {
             System.out.println(l.getNome());
         }
 
